@@ -30,10 +30,10 @@ import { ServicesOneComponent } from './components/pages/services-one/services-o
 import { AboutComponent } from './components/pages/about/about.component';
 
 const routes: Routes = [
-    {path: '', component: HomeOneComponent},
+    {path: 'home-one', component: HomeOneComponent},
     {path: 'home-two', component: HomeTwoComponent},
     {path: 'home-three', component: HomeThreeComponent},
-    {path: 'home-four', component: HomeFourComponent},
+    {path: '', component: HomeFourComponent},
     {path: 'home-five', component: HomeFiveComponent},
     {path: 'home-six', component: HomeSixComponent},
     {path: 'home-seven', component: HomeSevenComponent},
