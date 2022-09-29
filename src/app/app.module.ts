@@ -17,6 +17,13 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { ErrorComponent } from './components/pages/error/error.component';
 
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
+import { EletrocardiogramaComponent } from './components/services/eletrocardiograma/eletrocardiograma.component';
+import { EcocardiogramaComponent } from './components/services/ecocardiograma/ecocardiograma.component';
+import { DopplerVascularComponent } from './components/services/doppler-vascular/doppler-vascular.component';
+import { MapaComponent } from './components/services/mapa/mapa.component';
+import { HotlerComponent } from './components/services/hotler/hotler.component';
+import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
+import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +41,14 @@ import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.
     TermsConditionsComponent,
     PrivacyPolicyComponent,
     ErrorComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    EletrocardiogramaComponent,
+    EcocardiogramaComponent,
+    DopplerVascularComponent,
+    MapaComponent,
+    HotlerComponent,
+    ErgonometricoComponent,
+    EspirometriaComponent
   ],
   imports: [
     BrowserModule,

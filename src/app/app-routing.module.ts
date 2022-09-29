@@ -12,21 +12,35 @@ import { ServicesDetailsComponent } from './components/pages/services-details/se
 import { ServicesTwoComponent } from './components/pages/services-two/services-two.component';
 import { AboutComponent } from './components/pages/about/about.component';
 
+import { EletrocardiogramaComponent } from './components/services/eletrocardiograma/eletrocardiograma.component';
+import { EcocardiogramaComponent } from './components/services/ecocardiograma/ecocardiograma.component';
+import { DopplerVascularComponent } from './components/services/doppler-vascular/doppler-vascular.component';
+import { MapaComponent } from './components/services/mapa/mapa.component';
+import { HotlerComponent } from './components/services/hotler/hotler.component';
+import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
+import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
+
 const routes: Routes = [
 
     {path: '', component: HomeFourComponent, data: { titulo: 'Inicio' }},
-    {path: 'about', component: AboutComponent, data: { titulo: 'Inicio' }},
-    {path: 'services-two', component: ServicesTwoComponent},
+    {path: 'sobre', component: AboutComponent, data: { titulo: 'Inicio' }},
+    {path: 'servico', component: ServicesTwoComponent},
     {path: 'services-details', component: ServicesDetailsComponent},
-    {path: 'projects-details', component: ProjectsDetailsComponent},
-    {path: 'team', component: TeamComponent},
+    {path: 'consultas', component: ProjectsDetailsComponent},
+    {path: 'time', component: TeamComponent},
     {path: 'terms-conditions', component: TermsConditionsComponent},
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
     {path: 'error', component: ErrorComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
-    {path: 'contact', component: ContactComponent},
+    {path: 'contato', component: ContactComponent},
     // Here add new pages component
-
+    {path: 'eletrocardiograma', component: EletrocardiogramaComponent},
+    {path: 'ecocardiograma', component: EcocardiogramaComponent},
+    {path: 'doppler', component: DopplerVascularComponent},
+    {path: 'mapa', component: MapaComponent},
+    {path: 'hotler', component: HotlerComponent},
+    {path: 'ergonometrico', component: ErgonometricoComponent},
+    {path: 'espirometria', component: EspirometriaComponent},
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
 
