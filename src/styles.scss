@@ -1085,10 +1085,10 @@ Banner Area CSS
             background-image: url(assets/img/home-one/slider-bg.jpg);
         }
         &.item-bg2 {
-            background-image: url(assets/img/home-one/slider-bg-2.jpg);
+            background-image: url(assets/img/home-one/slider-bg.jpg);
         }
         &.item-bg3 {
-            background-image: url(assets/img/home-one/slider-bg-3.jpg);
+            background-image: url(assets/img/home-one/slider-bg.jpg);
         }
         .main-banner-content {
             position: relative;
@@ -2612,7 +2612,7 @@ Banner Area Four CSS
         position: center;
         size: cover;
         repeat: no-repeat;
-        image: url(assets/img/home-one/slider-bg.jpg);
+        image: url(assets/img/page-title/bg.jpg);
     };
     &::before {
         content: '';
