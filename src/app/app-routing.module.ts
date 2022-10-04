@@ -39,7 +39,7 @@ const routes: Routes = [
     {path: 'doppler', component: DopplerVascularComponent},
     {path: 'mapa', component: MapaComponent},
     {path: 'hotler', component: HotlerComponent},
-    {path: 'ergonometrico', component: ErgonometricoComponent},
+    {path: 'ergometrico', component: ErgonometricoComponent},
     {path: 'espirometria', component: EspirometriaComponent},
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
