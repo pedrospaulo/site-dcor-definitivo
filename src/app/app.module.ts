@@ -24,6 +24,7 @@ import { MapaComponent } from './components/services/mapa/mapa.component';
 import { HotlerComponent } from './components/services/hotler/hotler.component';
 import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
 import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
+import { ResultadosComponent } from './components/layouts/resultados/resultados.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { EspirometriaComponent } from './components/services/espirometria/espiro
     MapaComponent,
     HotlerComponent,
     ErgonometricoComponent,
-    EspirometriaComponent
+    EspirometriaComponent,
+    ResultadosComponent
   ],
   imports: [
     BrowserModule,
