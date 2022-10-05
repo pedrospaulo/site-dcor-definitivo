@@ -5,7 +5,7 @@ Default CSS
 =================================================*/
 $main-font-family: 'Open Sans', sans-serif;
 $optional-font-family: 'Catamaran', sans-serif;
-$main-color: #086AD8;
+$main-color: #014f8f;
 $optional-color: #10dce8;
 $white-color: #ffffff;
 $black-color: #212121;
@@ -88,7 +88,7 @@ img {
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: $black-color;
-    text-transform: capitalize;
+    text-transform: none;
     font: {
         family: $optional-font-family;
         weight: bold;
@@ -1646,13 +1646,13 @@ Services Area CSS
         }
     }
     &.bg-fc9ba7 {
-        border: 1px dashed #fc9ba7;
+        border: 1px dashed #014f8f;
 
         .icon {
-            color: #fc9ba7;
+            color: #014f8f;
         }
         &::before {
-            background: #fc9ba7;
+            background: #014f8f;
         }
         &:hover {
             box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -1666,13 +1666,13 @@ Services Area CSS
         }
     }
     &.bg-2cdcf7 {
-        border: 1px dashed #2cdcf7;
+        border: 1px dashed #014f8f;
 
         .icon {
-            color: #2cdcf7;
+            color: #014f8f;
         }
         &::before {
-            background: #2cdcf7;
+            background: #014f8f;
         }
         &:hover {
             box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -1686,13 +1686,13 @@ Services Area CSS
         }
     }
     &.bg-009af0 {
-        border: 1px dashed #009af0;
+        border: 1px dashed #014f8f;
 
         .icon {
-            color: #009af0;
+            color: #014f8f;
         }
         &::before {
-            background: #009af0;
+            background: #014f8f;
         }
         &:hover {
             box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -1706,13 +1706,13 @@ Services Area CSS
         }
     }
     &.bg-f4d62c {
-        border: 1px dashed #f4d62c;
+        border: 1px dashed #014f8f;
 
         .icon {
-            color: #f4d62c;
+            color: #014f8f;
         }
         &::before {
-            background: #f4d62c;
+            background: #014f8f;
         }
         &:hover {
             box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -1726,13 +1726,13 @@ Services Area CSS
         }
     }
     &.bg-1e2d75 {
-        border: 1px dashed #1e2d75;
+        border: 1px dashed #014f8f;
 
         .icon {
-            color: #1e2d75;
+            color: #014f8f;
         }
         &::before {
-            background: #1e2d75;
+            background: #014f8f;
         }
         &:hover {
             box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);

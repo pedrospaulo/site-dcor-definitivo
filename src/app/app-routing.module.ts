@@ -20,6 +20,8 @@ import { HotlerComponent } from './components/services/hotler/hotler.component';
 import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
 import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
 
+import { ResultadosComponent } from './components/layouts/resultados/resultados.component';
+
 const routes: Routes = [
 
     {path: '', component: HomeFourComponent, data: { titulo: 'Inicio' }},
@@ -39,8 +41,11 @@ const routes: Routes = [
     {path: 'doppler', component: DopplerVascularComponent},
     {path: 'mapa', component: MapaComponent},
     {path: 'hotler', component: HotlerComponent},
-    {path: 'ergonometrico', component: ErgonometricoComponent},
+    {path: 'ergometrico', component: ErgonometricoComponent},
     {path: 'espirometria', component: EspirometriaComponent},
+
+    {path: 'resultado', component: ResultadosComponent},
+
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
 
