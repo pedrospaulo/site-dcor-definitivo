@@ -1,10 +1,10 @@
 steps:# 
 steps:
 - name: "gcr.io/cloud-builders/docker"
-args: ["build", "-t", "gcr.io/$angularjs-364619/AngularJS", "."]
+args: ["build", "-t", "gcr.io/$angularjs-364619/AngularJS-application", "."]
 # push the container image to Container Registry
 - name: "gcr.io/cloud-builders/docker"
-args: ["push", "gcr.io/$angularjs-364619/AngularJS"]
+args: ["push", "gcr.io/$angularjs-364619/AngularJS-application"]
 # Deploy container image to Cloud Run
 - name: "gcr.io/cloud-builders/gcloud"
 args:
@@ -15,7 +15,7 @@ args:
 "--allow-unauthenticated",
 "$angularjs-364619",
 "--image",
-"gcr.io/$angularjs-364619/AngularJS",
+"gcr.io/$angularjs-364619/AngularJS-application",
 "--region",
 "us-central1",
 "--platform",
@@ -24,4 +24,4 @@ args:
 "128Mi"
 ]
 images:
-- "gcr.io/$angularjs-364619/AngularJS"
+- "gcr.io/$angularjs-364619/AngularJS-application"
