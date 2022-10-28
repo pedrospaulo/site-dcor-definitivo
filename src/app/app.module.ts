@@ -28,6 +28,8 @@ import { ResultadosComponent } from './components/layouts/resultados/resultados.
 import { SpecialtiesComponent } from './components/pages/specialties/specialties.component';
 import { InsuranceComponent } from './components/pages/insurance/insurance.component';
 import { Post01Component } from './components/blog/post01/post01.component';
+import { Post02Component } from './components/blog/post02/post02.component';
+import { Post03Component } from './components/blog/post03/post03.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { Post01Component } from './components/blog/post01/post01.component';
     ResultadosComponent,
     SpecialtiesComponent,
     InsuranceComponent,
-    Post01Component
+    Post01Component,
+    Post02Component,
+    Post03Component
   ],
   imports: [
     BrowserModule,
