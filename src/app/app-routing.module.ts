@@ -28,7 +28,7 @@ import { ResultadosComponent } from './components/layouts/resultados/resultados.
 const routes: Routes = [
 
     {path: '', component: HomeFourComponent, data: { titulo: 'Inicio' }},
-    {path: 'sobre', component: AboutComponent, data: { titulo: 'Inicio' }},
+    {path: 'sobre', component: AboutComponent,},
     {path: 'servico', component: ServicesTwoComponent},
     {path: 'services-details', component: ServicesDetailsComponent},
     {path: 'consultas', component: ProjectsDetailsComponent},
