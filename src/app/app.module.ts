@@ -25,6 +25,9 @@ import { HotlerComponent } from './components/services/hotler/hotler.component';
 import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
 import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
 import { ResultadosComponent } from './components/layouts/resultados/resultados.component';
+import { SpecialtiesComponent } from './components/pages/specialties/specialties.component';
+import { InsuranceComponent } from './components/pages/insurance/insurance.component';
+import { Post01Component } from './components/blog/post01/post01.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,10 @@ import { ResultadosComponent } from './components/layouts/resultados/resultados.
     HotlerComponent,
     ErgonometricoComponent,
     EspirometriaComponent,
-    ResultadosComponent
+    ResultadosComponent,
+    SpecialtiesComponent,
+    InsuranceComponent,
+    Post01Component
   ],
   imports: [
     BrowserModule,

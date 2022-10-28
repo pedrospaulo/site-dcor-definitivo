@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { HomeFourComponent } from './components/pages/home-four/home-four.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
@@ -11,6 +12,8 @@ import { ProjectsDetailsComponent } from './components/pages/projects-details/pr
 import { ServicesDetailsComponent } from './components/pages/services-details/services-details.component';
 import { ServicesTwoComponent } from './components/pages/services-two/services-two.component';
 import { AboutComponent } from './components/pages/about/about.component';
+import { SpecialtiesComponent } from './components/pages/specialties/specialties.component';
+import { InsuranceComponent } from './components/pages/insurance/insurance.component';
 
 import { EletrocardiogramaComponent } from './components/services/eletrocardiograma/eletrocardiograma.component';
 import { EcocardiogramaComponent } from './components/services/ecocardiograma/ecocardiograma.component';
@@ -35,6 +38,9 @@ const routes: Routes = [
     {path: 'error', component: ErrorComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
     {path: 'contato', component: ContactComponent},
+    {path: 'especialidades', component: SpecialtiesComponent},
+    {path: 'convenios', component: InsuranceComponent},
+
     // Here add new pages component
     {path: 'eletrocardiograma', component: EletrocardiogramaComponent},
     {path: 'ecocardiograma', component: EcocardiogramaComponent},
