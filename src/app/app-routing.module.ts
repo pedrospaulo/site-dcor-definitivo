@@ -25,6 +25,9 @@ import { EspirometriaComponent } from './components/services/espirometria/espiro
 
 import { ResultadosComponent } from './components/layouts/resultados/resultados.component';
 
+import { Post01Component } from './components/blog/post01/post01.component';
+import { Post02Component } from './components/blog/post02/post02.component';
+
 const routes: Routes = [
 
     {path: '', component: HomeFourComponent, data: { titulo: 'Inicio' }},
@@ -51,6 +54,9 @@ const routes: Routes = [
     {path: 'espirometria', component: EspirometriaComponent},
 
     {path: 'resultado', component: ResultadosComponent},
+
+    {path: 'post01', component: Post01Component},
+    {path: 'post02', component: Post02Component},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
