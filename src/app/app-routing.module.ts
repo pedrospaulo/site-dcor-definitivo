@@ -27,6 +27,7 @@ import { ResultadosComponent } from './components/layouts/resultados/resultados.
 
 import { Post01Component } from './components/blog/post01/post01.component';
 import { Post02Component } from './components/blog/post02/post02.component';
+import { Post03Component } from './components/blog/post03/post03.component';
 
 const routes: Routes = [
 
@@ -57,6 +58,7 @@ const routes: Routes = [
 
     {path: 'post01', component: Post01Component},
     {path: 'post02', component: Post02Component},
+    {path: 'post03', component: Post03Component},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
