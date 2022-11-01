@@ -981,8 +981,9 @@ Navbar Area CSS
         };
         .navbar-light {
             .navbar-toggler {
-                border-color: $black-color;
-                border-radius: 0;
+                border-color: blue;
+                border-radius: 12px;
+                background-color: #014f8f;
             }
         }
         .collapse:not(.show).active {
