@@ -22,6 +22,7 @@ import { MapaComponent } from './components/services/mapa/mapa.component';
 import { HotlerComponent } from './components/services/hotler/hotler.component';
 import { ErgonometricoComponent } from './components/services/ergonometrico/ergonometrico.component';
 import { EspirometriaComponent } from './components/services/espirometria/espirometria.component';
+import { UltrassomComponent } from './components/services/ultrassom/ultrassom.component';
 
 import { ResultadosComponent } from './components/layouts/resultados/resultados.component';
 
@@ -53,6 +54,7 @@ const routes: Routes = [
     {path: 'hotler', component: HotlerComponent},
     {path: 'ergometrico', component: ErgonometricoComponent},
     {path: 'espirometria', component: EspirometriaComponent},
+    {path: 'ultrasonografia', component: UltrassomComponent},
 
     {path: 'resultado', component: ResultadosComponent},
 

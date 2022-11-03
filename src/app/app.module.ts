@@ -30,6 +30,7 @@ import { InsuranceComponent } from './components/pages/insurance/insurance.compo
 import { Post01Component } from './components/blog/post01/post01.component';
 import { Post02Component } from './components/blog/post02/post02.component';
 import { Post03Component } from './components/blog/post03/post03.component';
+import { UltrassomComponent } from './components/services/ultrassom/ultrassom.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { Post03Component } from './components/blog/post03/post03.component';
     InsuranceComponent,
     Post01Component,
     Post02Component,
-    Post03Component
+    Post03Component,
+    UltrassomComponent
   ],
   imports: [
     BrowserModule,
